@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Northstar Digital is a fictional small-business website project showcasing responsive front-end development with HTML, CSS and JavaScript." />
+  <title>Northstar Digital | Websites & IT Support</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Northstar Digital home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img"><path d="M24 3l5.2 15.8L45 24l-15.8 5.2L24 45l-5.2-15.8L3 24l15.8-5.2L24 3z" fill="currentColor"/></svg>
+        </span>
+        <span>Northstar <strong>Digital</strong></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" data-nav>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-sm" href="#contact">Start a project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Small-business technology, minus the friction</span>
+          <h1>Websites that look sharp. Support that keeps things moving.</h1>
+          <p class="hero-lede">Northstar Digital helps growing teams launch professional websites, solve everyday IT problems, and automate repetitive business tasks.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Get a free project plan</a>
+            <a class="text-link" href="#work">See our work <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof" aria-label="Business highlights">
+            <div><strong>48h</strong><span>Typical first draft</span></div>
+            <div><strong>100%</strong><span>Responsive layouts</span></div>
+            <div><strong>1:1</strong><span>Direct project support</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1" aria-label="Project dashboard preview">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+            <p>northstar-dashboard.local</p>
+          </div>
+          <div class="dashboard-card">
+            <div class="dashboard-top">
+              <div>
+                <small>Monthly overview</small>
+                <h2>Business pulse</h2>
+              </div>
+              <span class="status-pill">Live</span>
+            </div>
+            <div class="mini-stats">
+              <article><span>Leads</span><strong>128</strong><small>+18% this month</small></article>
+              <article><span>Tickets solved</span><strong>94</strong><small>92% SLA met</small></article>
+            </div>
+            <div class="chart-panel">
+              <div class="chart-labels"><span>Website inquiries</span><strong>+31%</strong></div>
+              <div class="chart-bars" aria-hidden="true">
+                <span style="height: 38%"></span><span style="height: 52%"></span><span style="height: 44%"></span><span style="height: 68%"></span><span style="height: 61%"></span><span style="height: 82%"></span><span style="height: 94%"></span>
+              </div>
+            </div>
+            <div class="task-list">
+              <div><span class="dot done"></span><p><strong>Website refresh</strong><small>Published</small></p><b>Done</b></div>
+              <div><span class="dot active"></span><p><strong>Email automation</strong><small>Testing workflow</small></p><b>In progress</b></div>
+              <div><span class="dot"></span><p><strong>Support portal</strong><small>Kickoff Tuesday</small></p><b>Planned</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-strip" aria-label="Example client industries">
+      <div class="container logo-row">
+        <span>Hospitality</span><span>Consulting</span><span>Retail</span><span>Professional Services</span><span>Startups</span>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>Practical digital help for busy teams.</h2>
+          <p>From a polished web presence to day-to-day technical support, we focus on work that saves time and makes your business easier to run.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">01</div>
+            <h3>Business websites</h3>
+            <p>Responsive, fast-loading websites designed around clear messaging and simple customer journeys.</p>
+            <ul><li>Landing pages</li><li>Multi-section business sites</li><li>Mobile-first layouts</li></ul>
+          </article>
+          <article class="service-card reveal delay-1">
+            <div class="service-icon">02</div>
+            <h3>Automation & reporting</h3>
+            <p>Turn repetitive spreadsheet and reporting tasks into clean, repeatable workflows.</p>
+            <ul><li>Excel & CSV processing</li><li>Python automation</li><li>Dashboard reporting</li></ul>
+          </article>
+          <article class="service-card reveal delay-2">
+            <div class="service-icon">03</div>
+            <h3>IT support</h3>
+            <p>Clear troubleshooting, documentation, and technical assistance for everyday business systems.</p>
+            <ul><li>Application support</li><li>User troubleshooting</li><li>Technical documentation</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="work">
+      <div class="container case-grid">
+        <div class="case-visual reveal" aria-label="Website redesign preview">
+          <div class="case-browser">
+            <div class="window-bar"><span></span><span></span><span></span><p>atlas-consulting.demo</p></div>
+            <div class="case-site">
+              <div class="case-nav"><b>ATLAS.</b><div><span></span><span></span><span></span></div></div>
+              <div class="case-hero"><small>OPERATIONS CONSULTING</small><h3>Make complexity easier to manage.</h3><p>Clear processes. Better systems. Stronger teams.</p><button>Book a consultation</button></div>
+              <div class="case-cards"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-copy reveal delay-1">
+          <span class="eyebrow">Featured project</span>
+          <h2>From dated brochure site to a focused lead-generation experience.</h2>
+          <p>A fictional consulting company needed a cleaner message, stronger calls to action, and a layout that worked beautifully on phones and laptops.</p>
+          <div class="result-grid">
+            <div><strong>6</strong><span>Core page sections</span></div>
+            <div><strong>3</strong><span>Responsive breakpoints</span></div>
+            <div><strong>AA</strong><span>Accessibility-minded UI</span></div>
+          </div>
+          <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive UI</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">How projects run</span>
+          <h2>Clear steps. No disappearing acts.</h2>
+        </div>
+        <div class="process-grid">
+          <article class="reveal"><span>01</span><h3>Discover</h3><p>We clarify your goals, audience, content, and must-have functionality.</p></article>
+          <article class="reveal delay-1"><span>02</span><h3>Build</h3><p>We create the first working version quickly, then refine it around your feedback.</p></article>
+          <article class="reveal delay-2"><span>03</span><h3>Test</h3><p>We check layouts, interactions, mobile behavior, and common edge cases.</p></article>
+          <article class="reveal delay-3"><span>04</span><h3>Launch</h3><p>You receive a clean handover with files, notes, and support for the final rollout.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial-section">
+      <div class="container testimonial-wrap reveal">
+        <p class="quote-mark">“</p>
+        <blockquote>Northstar turned our scattered ideas into a site our team could actually use. The process was clear, quick, and refreshingly practical.</blockquote>
+        <div class="testimonial-author">
+          <span>LM</span>
+          <p><strong>Leila Morgan</strong><small>Operations Director, fictional client</small></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-grid">
+        <div class="section-heading reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>A few useful answers before we start.</h2>
+          <p>Still unsure? Send a message and we’ll help scope the simplest route.</p>
+        </div>
+        <div class="faq-list reveal delay-1" data-faq-list>
+          <article class="faq-item">
+            <button type="button" aria-expanded="true"><span>How quickly can a small website be built?</span><b>−</b></button>
+            <div class="faq-answer"><p>A straightforward one-page business website can often reach a first working draft within 48 hours once the content and direction are clear.</p></div>
+          </article>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false"><span>Will the site work on mobile?</span><b>+</b></button>
+            <div class="faq-answer" hidden><p>Yes. The layout is designed and tested for common mobile, tablet, and desktop widths rather than treating mobile as an afterthought.</p></div>
+          </article>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false"><span>Can existing websites be improved instead?</span><b>+</b></button>
+            <div class="faq-answer" hidden><p>Absolutely. Small redesigns, responsive fixes, content updates, JavaScript bugs, and layout improvements are common project types.</p></div>
+          </article>
+          <article class="faq-item">
+            <button type="button" aria-expanded="false"><span>Does the contact form send real emails?</span><b>+</b></button>
+            <div class="faq-answer" hidden><p>This portfolio demo validates the form in the browser and shows a success state. A real project can connect it to Formspree, a backend API, or another email service.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Start a project</span>
+          <h2>Tell us what’s slowing your business down.</h2>
+          <p>Share the goal, the current setup, and what “done” should look like. We’ll turn it into a practical next step.</p>
+          <div class="contact-note"><span>✓</span><p><strong>No-pressure project review</strong><small>This is a fictional portfolio contact form.</small></p></div>
+        </div>
+
+        <form class="contact-form reveal delay-1" data-contact-form novalidate>
+          <div class="field-row">
+            <label>First name<input type="text" name="firstName" autocomplete="given-name" required /></label>
+            <label>Last name<input type="text" name="lastName" autocomplete="family-name" required /></label>
+          </div>
+          <label>Email<input type="email" name="email" autocomplete="email" placeholder="you@company.com" required /></label>
+          <label>What do you need?
+            <select name="service" required>
+              <option value="">Choose a service</option>
+              <option>Business website</option>
+              <option>Website fixes</option>
+              <option>Automation & reporting</option>
+              <option>IT support</option>
+            </select>
+          </label>
+          <label>Project details<textarea name="message" rows="5" placeholder="A short description is enough to start..." required></textarea></label>
+          <button class="btn" type="submit">Send project brief</button>
+          <p class="form-message" role="status" aria-live="polite" data-form-message></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <a class="brand brand-footer" href="#top">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 3l5.2 15.8L45 24l-15.8 5.2L24 45l-5.2-15.8L3 24l15.8-5.2L24 3z" fill="currentColor"/></svg></span>
+        <span>Northstar <strong>Digital</strong></span>
+      </a>
+      <p>Fictional portfolio project · <span data-year></span></p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" data-toast role="status" aria-live="polite">Demo form submitted successfully.</div>
+  <script src="script.js"></script>
+</body>
+</html>
